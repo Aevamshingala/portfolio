@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import me from "../../../assets/me.jpeg";
 import TrueFocus from "../../../textAni/TrueFocus/TrueFocus";
 import DotGrid from "../../../Back/DotGrid/DotGrid";
-
+import Image from "next/image";
 function Intro() {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -36,12 +36,13 @@ function Intro() {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          <img
-            src={me.src}
-            alt="Aevam Shingala profile"
-            aria-label="Profile image of Aevam Shingala"
-            className="w-full h-full object-cover mix-blend-hard-light"
-          />
+          <div className="w-full h-full">
+            <Image
+              src={me}
+              alt="Profile image of Aevam Shingala"
+              className="w-full h-full object-cover mix-blend-hard-light"
+            />
+          </div>
         </div>
 
         {/* Name & Greeting */}
