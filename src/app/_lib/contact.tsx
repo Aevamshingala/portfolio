@@ -15,7 +15,7 @@ function Contact() {
   }
 
   return (
-    <div className="relative min-h-screen bg-gray-950 py-12 px-4 mt-14 overflow-hidden w-full">
+    <div className="relative min-h-screen bg-gray-950 py-12 px-4 mt-14 overflow-hidden w-[100vw] m-4">
       {/* Particle Background */}
       <div className="absolute inset-0 z-0">
         <Particles
