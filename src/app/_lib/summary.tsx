@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import GradientText from "../../../textAni/GradientText/GradientText";
 import Threads from "../../../Back/Threads/Threads";

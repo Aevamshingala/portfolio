@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import me from "../../../assets/me.jpeg";
 import TrueFocus from "../../../textAni/TrueFocus/TrueFocus";

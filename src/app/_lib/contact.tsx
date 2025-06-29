@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { FaInstagram, FaLinkedin } from "react-icons/fa";

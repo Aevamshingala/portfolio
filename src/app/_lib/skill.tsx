@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Masonry from "../../../com/Masonry/Masonry";
 import Particles from "../../../Back/Particles/Particles";
