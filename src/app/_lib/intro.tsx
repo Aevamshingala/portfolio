@@ -47,7 +47,9 @@ function Intro() {
 
         {/* Name & Greeting */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-center mt-6">
-          <p className="text-3xl sm:text-5xl font-bold text-white">Hi, I'm</p>
+          <p className="text-3xl sm:text-5xl font-bold text-white">
+            Hi, I&apos;m
+          </p>
           <TrueFocus
             sentence="Aevam Shingala"
             manualMode={false}
