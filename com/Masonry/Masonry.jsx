@@ -6,8 +6,10 @@ import { gsap } from "gsap";
 import "./Masonry.css";
 
 const useMedia = (queries, values, defaultValue) => {
+  if (typeof window === "undefined") return;
   const get = () =>
-    values[queries.findIndex((q) => matchMedia(q).matches)] ?? defaultValue;
+    values[queries.findIndex((q) => window.matchMedia(q).matches)] ??
+    defaultValue;
 
   const [value, setValue] = useState(get);
 
