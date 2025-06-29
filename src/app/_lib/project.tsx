@@ -1,5 +1,4 @@
 import React from "react";
-import Aurora from "../../../Back/Aurora/Aurora";
 import Particles from "../../../Back/Particles/Particles";
 import SpotlightCard from "../../../com/SpotlightCard/SpotlightCard";
 
