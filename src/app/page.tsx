@@ -35,7 +35,7 @@ export default function Home() {
         <Summary />
       </div>
       <div className="w-full p-5 border-t-2 border-t-sky-400 border-dotted"></div>
-      <div ref={skill} className="w-full">
+      <div ref={skill} className="w-full h-full">
         <Skill />
       </div>
       <div className="w-full p-5 border-t-2 border-t-sky-400 border-dotted"></div>
