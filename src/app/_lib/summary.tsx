@@ -50,9 +50,14 @@ function Summary() {
           showBorder={false}
           className="text-2xl bg-transparent w-full p-5"
         >
-          I craft stunning, high-performance websites and mobile applications
-          using cutting-edge React, React Native, and MERN stack technologies to
-          deliver exceptional digital experiences.
+          Dynamic and hands-on software developer with expertise in Python,
+          JavaScript, React, React Native, and the MERN stack, along with Java
+          and SQL. I craft stunning, high-performance websites and mobile
+          applications using cutting-edge technologies to deliver exceptional
+          digital experiences. Known for strong problem-solving skills, a deep
+          passion for continuous learning, and the ability to quickly adapt in
+          the ever-evolving tech landscape. Committed to building scalable,
+          user-centric solutions that make a real impact.
         </GradientText>
       </div>
     </div>
