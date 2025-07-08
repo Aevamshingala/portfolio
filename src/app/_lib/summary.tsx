@@ -48,7 +48,7 @@ function Summary() {
           colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
           animationSpeed={3}
           showBorder={false}
-          className="text-2xl bg-transparent w-full p-5"
+          className="text-2xl bg-transparent w-full p-5 overflow-x-auto"
         >
           Dynamic and hands-on software developer with expertise in Python,
           JavaScript, React, React Native, and the MERN stack, along with Java

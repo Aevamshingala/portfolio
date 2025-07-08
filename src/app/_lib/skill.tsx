@@ -96,8 +96,10 @@ function Skill() {
           className="w-full h-full"
         />
       </div>
-      <div className="flex justify-center items-center mt-20">
-        <h1 className="text-5xl text-gray-700">Skills</h1>
+      <div className="flex justify-center items-center mt-16">
+        <h1 className="text-4xl md:text-5xl text-gray-300 font-bold text-center">
+          Skills
+        </h1>
       </div>
       <div className="w-full h-full pointer-events-none">
         <Masonry
