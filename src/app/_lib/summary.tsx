@@ -36,6 +36,7 @@ function Summary() {
       <div
         style={{
           width: "100%",
+          height: "100%",
           textAlign: "center",
           padding: "2rem",
           marginTop: "20%",
@@ -48,7 +49,7 @@ function Summary() {
           colors={["#40ffaa", "#4079ff", "#40ffaa", "#4079ff", "#40ffaa"]}
           animationSpeed={3}
           showBorder={false}
-          className="text-2xl bg-transparent w-full p-5 overflow-x-auto"
+          className="text-2xl bg-transparent w-full p-5 overflow-x-auto h-fit"
         >
           Dynamic and hands-on software developer with expertise in Python,
           JavaScript, React, React Native, and the MERN stack, along with Java
